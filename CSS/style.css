@@ -39,6 +39,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body{
     background: #0C151D;
     color:#fff;
+    font-family: 'Raleway', sans-serif;
+    /*background:url('') 50% cover no-repeat fixed;
+    background-size: auto auto; */
 }
 
 .profile-info{
@@ -48,12 +51,13 @@ body{
     align-items: center;
     padding: 0px;
     gap: 40px;
-
+    background: #0C151D;
     position: absolute;
     width: 631px;
-    height: 215px;
+    height: 250px;
     left: 548px;
     top: 178px;
+    border-radius: 20px;
 }
 .foto{
     overflow: hidden;
@@ -63,11 +67,21 @@ body{
     border: 5px;
 	font-style: 50px;
     margin: 0 0 30px 0;
+    
 }
 .frame{
     width: 372px;
     height: 156px;
+   
 
+}
+.frame h2{
+    font-size: 30px;
+    padding: 0 0 15px 0;
+}
+.frame h3{
+    font-size: 25px;
+    padding: 0 0 10px 0;
 }
 .social-networks{
     display: flex;
@@ -109,8 +123,42 @@ body{
     left: 555px;
     top: 630px;
 }
+
+
+
 .tabs-buttons{
-background: #0C151D;
-border-radius: 20px;
+    
+    position: absolute;
+    width: 756px;
+    height: 132px;
+    left: calc(50% - 756px/2);
+    top: 785px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    height: 70px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(33, 33, 33) ;
+
+}
+
+.tabs-content{
+    position: absolute;
+    width: 757px;
+    height: 826px;
+    left: 485px;
+    top: 982px;
+
+    border-radius: 20px;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color:rgb(61, 56, 56);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
 }
 
